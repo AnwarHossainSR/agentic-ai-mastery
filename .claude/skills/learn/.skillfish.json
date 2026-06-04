@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "name": "learn",
+  "owner": "charlesjones-dev",
+  "repo": "claude-code-plugins-dev",
+  "path": "plugins/ai-learn/skills/learn",
+  "branch": "main",
+  "sha": "6214dd87477ae939b271cf0f2ded28ed787e7394",
+  "source": "manual"
+}
