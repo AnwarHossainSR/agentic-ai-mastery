@@ -1,0 +1,13 @@
+{
+  "name": "agentic-ai-mastery-js",
+  "version": "0.1.0",
+  "description": "JavaScript track for the Zero to Agentic AI course (mirrors the Python notebooks).",
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "@langchain/core": "^0.3.0",
+    "@langchain/google-genai": "^0.2.0",
+    "dotenv": "^16.4.0",
+    "langchain": "^0.3.0"
+  }
+}
