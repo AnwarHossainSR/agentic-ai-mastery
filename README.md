@@ -23,6 +23,19 @@ uv sync
 # you also need API keys in a .env file (see Module 00)
 ```
 
+### Two language tracks: Python and JavaScript
+
+Each module ships the **same lesson in both languages** so you can learn them side by side:
+
+- **Python** — the `NN-name.ipynb` notebook. Run cells with **Shift + Enter** (needs `uv sync`).
+- **JavaScript** — the `NN-name.mjs` file. Run it from the **project root** with Node:
+  ```bash
+  npm install                       # once, installs the JS LangChain packages
+  node 01-models/01-models.mjs      # run any module's JS version
+  ```
+
+The code is intentionally parallel. The one spelling gotcha: the provider id is `google_genai` (underscore) in Python and `google-genai` (hyphen) in JS; method names are snake_case in Python (`init_chat_model`) and camelCase in JS (`initChatModel`), and **every model call is `await`ed** in JS.
+
 ## The roadmap
 
 The course is in four parts: first you learn to **talk to a model**, then to **give it knowledge**, then to **make it act as an agent**, and finally to **ship it like a professional**.
