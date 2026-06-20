@@ -8,6 +8,7 @@
     "@langchain/core": "^0.3.0",
     "@langchain/google-genai": "^0.2.0",
     "dotenv": "^16.4.0",
-    "langchain": "^0.3.0"
+    "langchain": "^0.3.0",
+    "zod": "^3.25.76"
   }
 }
